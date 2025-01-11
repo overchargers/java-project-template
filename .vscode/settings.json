@@ -1,0 +1,27 @@
+{
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [120],
+    "editor.insertSpaces": true,
+    "java.compile.nullAnalysis.mode": "automatic",
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.format.settings.url": "./eclipse-java-google-style.xml",
+    "java.format.enabled": false,
+    "[java]": {
+      "files.trimTrailingWhitespace": false,
+      "spotlessGradle.diagnostics.enable": true,
+      "spotlessGradle.format.enable": true,
+      "editor.defaultFormatter": "richardwillis.vscode-spotless-gradle",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.spotlessGradle": "explicit"
+      }
+    },
+    "[gradle]": {
+      "files.trimTrailingWhitespace": false,
+      "spotlessGradle.diagnostics.enable": true,
+      "spotlessGradle.format.enable": true,
+      "editor.defaultFormatter": "richardwillis.vscode-spotless-gradle",
+      "editor.codeActionsOnSave": {
+        "source.fixAll.spotlessGradle": "explicit"
+      }
+    }
+}
